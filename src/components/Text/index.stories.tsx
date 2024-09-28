@@ -16,6 +16,7 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
     args: {
+        as: "h1",
         children: "Testing storybook with react and learning things"
     },
 };
